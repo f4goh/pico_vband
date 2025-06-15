@@ -20,7 +20,6 @@ Built, minus mode button but with external LED:
 
 Use Pi [Pico zero](https://fr.aliexpress.com/item/1005007650325892.html) , So led is on GPIO 8
 
-
 ![PICOZERO](./pictures/RP2040-Zero.jpg)
 
 ## How to compile
@@ -162,7 +161,7 @@ event at some future calculated time. It's a bit awkward, but seems to work.
 The schematic is not exactly difficult. You merely need to connect the connections for the
 morse key/paddle and the mode switch. If you require an external LED then, for reference I connected
 mine between pins 12 (GPIO9) and 13 (GND), and changed the define of `LED_PIN` near the top of the
-`.ino` file from `LED_BUILTIN` to `9`.
+`.ino` file from `LED_BUILTIN` to `8`. 
 
 ![Schematic](./schematic/pico_vband.png)
 
