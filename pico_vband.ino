@@ -18,7 +18,7 @@
 #include <singleLEDLibrary.h>	// https://github.com/SethSenpai/singleLEDLibrary
 #include <arduino-timer.h>	// https://github.com/contrem/arduino-timer
 
-#define VERSION 1.0
+#define VERSION 1.1
 
 #define DEBUG 0
 
@@ -29,11 +29,11 @@
 // Mode/multi-function button pin
 #define BUTTON_PIN 4
 
-#define LED_PIN LED_BUILTIN
+//#define LED_PIN LED_BUILTIN
 // If you want a convinient external LED connection then I used GPIO9/pin12 along with the convinient
 // GND on pin13. Enabling both LEDs at once is not completely trivial with the singleLEDLibrary, so
 // right now you can have one or the other (onboard or outboard).
-//#define LED_PIN 9   // 9 physically convenient next to a gnd
+#define LED_PIN 8   // 9 physically convenient next to a gnd
 
 // We are going to try and support:
 // vband - https://hamradio.solutions/vband/

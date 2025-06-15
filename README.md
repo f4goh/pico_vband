@@ -16,6 +16,26 @@ Built, minus mode button but with external LED:
 
 ![Altoids](./pictures/pico_vband_altoids.jpg)
 
+## F4GOH changes
+
+Use Pi Pico zero. So led is on GPIO 8
+
+![PICOZERO](./pictures/RP2040-Zero.jpg)
+
+#How to compile
+
+Add this Json file in Arduino preferences
+
+```console
+https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+```
+
+![board](./pictures/config.png)
+
+#Or just copy pico_vband.ino.uf2 in RPI-PICo zero folder
+
+pico_vband.ino.uf2 is in bulid directory
+
 ## Inspiration
 
 I have a regular practice HF CW QSO with a friend of mine, but he lives about
@@ -169,7 +189,7 @@ file onto the drive](https://www.raspberrypi.com/documentation/microcontrollers/
 
 | Version | Date       | Changes |
 | ------- | ---------- | ------- |
-| v1.0    | 2025-02-23 | Initial release |
+| v1.1    | 2025-06-15 | Initial release With f4goh changes|
 
 ## Future work
 
