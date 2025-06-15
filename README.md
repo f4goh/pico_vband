@@ -22,7 +22,7 @@ Use Pi Pico zero. So led is on GPIO 8
 
 ![PICOZERO](./pictures/RP2040-Zero.jpg)
 
-#How to compile
+## How to compile
 
 Add this Json file in Arduino preferences
 
@@ -32,7 +32,7 @@ https://github.com/earlephilhower/arduino-pico/releases/download/global/package_
 
 ![board](./pictures/config.png)
 
-#Or just copy pico_vband.ino.uf2 in RPI-PICo zero folder
+## Or just copy pico_vband.ino.uf2 in RPI-PICo zero folder
 
 pico_vband.ino.uf2 is in bulid directory
 
