@@ -18,7 +18,8 @@ Built, minus mode button but with external LED:
 
 ## F4GOH changes
 
-Use Pi Pico zero. So led is on GPIO 8
+Use Pi [Pico zero](https://fr.aliexpress.com/item/1005007650325892.html) , So led is on GPIO 8
+
 
 ![PICOZERO](./pictures/RP2040-Zero.jpg)
 
