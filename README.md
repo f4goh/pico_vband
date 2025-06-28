@@ -10,16 +10,15 @@ USB keyboard, which then allows you to interact with web sites such as
 [morsecode.me](https://morsecode.me/#/help/practice).
 
 
-# [PC-board iambic CW paddle](https://pa0cmu.nl/paddle.html)
+## [PC-board iambic CW paddle](https://pa0cmu.nl/paddle.html)
 
 ![Paddle](./pictures/paddle.jpg)
 
-Prototype:
+## Prototype:
 
 ![Prototype](./pictures/prototype.jpg)
 
-Built, minus mode button but with external LED:
-
+## Built, minus mode button but with external LED:
 
 ![Altoids](./pictures/pico_vband_altoids.jpg)
 
