@@ -1,5 +1,7 @@
 # A Pi Pico based vband CW/Morse USB 'dongle'
 
+![box](./pictures/zero_box.jpg)
+
 This repository contains the code and instructions to build a USB dongle
 that allows a morse key or paddle to be conected to your computer like a
 USB keyboard, which then allows you to interact with web sites such as
